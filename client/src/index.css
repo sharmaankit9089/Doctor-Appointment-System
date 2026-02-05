@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: "Montserrat", sans-serif !important;
+}
+
+/* antd override */
+input {
+    border-radius: 2px !important;
+    border: 1px solid rgba(128, 128, 128, 0.521) !important;
+    height: 40px !important;
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid rgb(93, 92, 92) !important;
+}
+
+label {
+    font-size: 16px !important;
+    color: black !important;
+}
+
+.ant-form-item {
+    margin: 10px 0 !important;
+}
+
+/* Common styling */
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.normal-text {
+    font-size: 1rem;
+}
+
+.card {
+    box-shadow: 0 0 2px gray;
+    border-radius: 0 !important;
+}
+
+.primary-button{
+    background-color: #0d8177 !important;
+    border-color: #0d8177 !important;
+    width: 100% !important;
+    height: 40px !important;
+    color: white !important;
+    font-size: 15px !important;
+}
+.primary-button:hover{
+    background-color: #1db5a8 !important;
+    border-color: #1ab8ab !important;
+    width: 100% !important;
+    height: 40px !important;
+    color: white !important;
+    font-size: 15px !important;
+}
+
+.anchor{
+    color: #0d8177 !important;
+    text-decoration: underline !important;
+    font-size: 15px !important;
+}
+
+/* authentication pages */
+
+.authentication {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.authentication-form {
+    width: 400px;
+}
+
+.authentication .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgb(249, 115, 67);
+    color: white !important;
+    max-width: max-content !important;
+    padding: 7px 15px;
+    margin-left: -40px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
